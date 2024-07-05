@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/viewPager_layout"
+    android:layout_width="match_parent"
+    android:layout_gravity="center"
+    android:layout_height="wrap_content"
+    android:paddingBottom="10dp">
+
+    <com.kanan.cardgallery.Util.ViewPagerFixed
+        android:layout_alignParentTop="true"
+        android:id="@+id/view_pager"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_above="@+id/dot"/>
+
+    <com.tbuonomo.viewpagerdotsindicator.WormDotsIndicator
+        android:id="@+id/dot"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="15dp"
+        android:layout_marginTop="10dp"
+        app:dotsColor="@android:color/holo_blue_light"
+        app:dotsSize="15dp"
+        app:dotsSpacing="5dp"
+        app:selectedDotColor="@android:color/holo_blue_dark" />
+
+</RelativeLayout>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/action_refresh"
+        android:icon="@drawable/restart_icon"
+        android:title="Refresh"
+        app:showAsAction="ifRoom|collapseActionView" />
+
+    <item android:id="@+id/action_take_photo_from_camera"
+        android:icon="@drawable/camera_icon"
+        android:title="Camera"
+        app:showAsAction="ifRoom|collapseActionView" />
+
+    <item android:id="@+id/action_take_photo_from_gallery"
+        android:icon="@drawable/gallery_icon"
+        android:title="Gallery"
+        app:showAsAction="ifRoom|collapseActionView" />
+
+    <item android:id="@+id/action_save_photo"
+        android:icon="@drawable/done_icon"
+        android:title="Save"
+        app:showAsAction="ifRoom|collapseActionView" />
+</menu>
